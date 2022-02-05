@@ -2078,7 +2078,7 @@ const todo: TodoPreview = {
 
 ```ts
 type Pick<T, K extends keyof T> = {
-  [P in k]: T[P];	// 如果 P in T 就是和原来的一模一样了
+  [P in K]: T[P];	// 如果 P in T 就是和原来的一模一样了
 }
 ```
 
